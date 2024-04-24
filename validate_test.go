@@ -14,7 +14,7 @@ func TestEmptySettingsLeadsToApproval(t *testing.T) {
 	settings := Settings{}
 	pod := corev1.Pod{
 		Metadata: &metav1.ObjectMeta{
-			Name:      "test-pod",
+			Name:      "t-icit-caas-pod",
 			Namespace: "default",
 		},
 	}
